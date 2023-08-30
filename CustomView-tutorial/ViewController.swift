@@ -28,7 +28,23 @@ class ViewController: UIViewController {
             $0.trailing.equalTo(secondInputView)
             $0.height.equalTo(secondInputView)
         }
-    }
+        
+        let fourthInputView = CodeInputView(title: "$800,000",
+                                            placeholder: "biennially",
+                                            onBtnAClicked: self.handleBtnAClicked,
+                                            onBtnBClicked: self.handleBtnBClicked(userInput:),
+                                            onUserInputChanged: self.handleInputFromCodeInputView(userInput:)
+        )
+        
+        self.view.addSubview(fourthInputView)
+        fourthInputView.snp.makeConstraints{
+            $0.top.equalTo(thirdInputView.snp.bottom).offset(10)
+            $0.leading.equalTo(thirdInputView)
+            $0.trailing.equalTo(thirdInputView)
+            $0.height.greaterThanOrEqualTo(thirdInputView)
+        }
+        
+    } // loadView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -64,6 +80,10 @@ class ViewController: UIViewController {
     }
     
     fileprivate func handleBtnBClicked(userInput: String) {
+        print(#fileID, #function, #line, "- userInput: \(userInput)")
+    }
+    
+    fileprivate func handleInputFromCodeInputView(userInput: String) {
         print(#fileID, #function, #line, "- userInput: \(userInput)")
     }
 

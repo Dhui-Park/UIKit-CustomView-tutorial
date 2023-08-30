@@ -17,6 +17,7 @@
 		B79E86A82A9E0E1700E9D1B7 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79E86A72A9E0E1700E9D1B7 /* InputView.swift */; };
 		B79E86AB2A9E123300E9D1B7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B79E86AA2A9E123300E9D1B7 /* SnapKit */; };
 		B79E86AE2A9E123F00E9D1B7 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = B79E86AD2A9E123F00E9D1B7 /* Then */; };
+		B79E86B02A9EBA1700E9D1B7 /* CodeInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79E86AF2A9EBA1700E9D1B7 /* CodeInputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B79E869F2A9E09C500E9D1B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B79E86A52A9E0D4600E9D1B7 /* InputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputView.xib; sourceTree = "<group>"; };
 		B79E86A72A9E0E1700E9D1B7 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		B79E86AF2A9EBA1700E9D1B7 /* CodeInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeInputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				B79E86A72A9E0E1700E9D1B7 /* InputView.swift */,
 				B79E86972A9E09C400E9D1B7 /* Main.storyboard */,
 				B79E86A52A9E0D4600E9D1B7 /* InputView.xib */,
+				B79E86AF2A9EBA1700E9D1B7 /* CodeInputView.swift */,
 				B79E869A2A9E09C500E9D1B7 /* Assets.xcassets */,
 				B79E869C2A9E09C500E9D1B7 /* LaunchScreen.storyboard */,
 				B79E869F2A9E09C500E9D1B7 /* Info.plist */,
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B79E86962A9E09C400E9D1B7 /* ViewController.swift in Sources */,
+				B79E86B02A9EBA1700E9D1B7 /* CodeInputView.swift in Sources */,
 				B79E86A82A9E0E1700E9D1B7 /* InputView.swift in Sources */,
 				B79E86922A9E09C400E9D1B7 /* AppDelegate.swift in Sources */,
 				B79E86942A9E09C400E9D1B7 /* SceneDelegate.swift in Sources */,
