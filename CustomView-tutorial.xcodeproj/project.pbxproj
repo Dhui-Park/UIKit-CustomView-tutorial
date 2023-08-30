@@ -18,6 +18,8 @@
 		B79E86AB2A9E123300E9D1B7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B79E86AA2A9E123300E9D1B7 /* SnapKit */; };
 		B79E86AE2A9E123F00E9D1B7 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = B79E86AD2A9E123F00E9D1B7 /* Then */; };
 		B79E86B02A9EBA1700E9D1B7 /* CodeInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79E86AF2A9EBA1700E9D1B7 /* CodeInputView.swift */; };
+		B79E86B22A9ED4C400E9D1B7 /* ParentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79E86B12A9ED4C400E9D1B7 /* ParentVC.swift */; };
+		B79E86B42A9ED50000E9D1B7 /* ChildVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79E86B32A9ED50000E9D1B7 /* ChildVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		B79E86A52A9E0D4600E9D1B7 /* InputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputView.xib; sourceTree = "<group>"; };
 		B79E86A72A9E0E1700E9D1B7 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		B79E86AF2A9EBA1700E9D1B7 /* CodeInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeInputView.swift; sourceTree = "<group>"; };
+		B79E86B12A9ED4C400E9D1B7 /* ParentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentVC.swift; sourceTree = "<group>"; };
+		B79E86B32A9ED50000E9D1B7 /* ChildVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 			children = (
 				B79E86912A9E09C400E9D1B7 /* AppDelegate.swift */,
 				B79E86932A9E09C400E9D1B7 /* SceneDelegate.swift */,
+				B79E86B12A9ED4C400E9D1B7 /* ParentVC.swift */,
+				B79E86B32A9ED50000E9D1B7 /* ChildVC.swift */,
 				B79E86952A9E09C400E9D1B7 /* ViewController.swift */,
 				B79E86A72A9E0E1700E9D1B7 /* InputView.swift */,
 				B79E86972A9E09C400E9D1B7 /* Main.storyboard */,
@@ -162,6 +168,8 @@
 			files = (
 				B79E86962A9E09C400E9D1B7 /* ViewController.swift in Sources */,
 				B79E86B02A9EBA1700E9D1B7 /* CodeInputView.swift in Sources */,
+				B79E86B42A9ED50000E9D1B7 /* ChildVC.swift in Sources */,
+				B79E86B22A9ED4C400E9D1B7 /* ParentVC.swift in Sources */,
 				B79E86A82A9E0E1700E9D1B7 /* InputView.swift in Sources */,
 				B79E86922A9E09C400E9D1B7 /* AppDelegate.swift in Sources */,
 				B79E86942A9E09C400E9D1B7 /* SceneDelegate.swift in Sources */,
